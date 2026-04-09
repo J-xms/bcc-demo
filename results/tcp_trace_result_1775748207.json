@@ -1,0 +1,98 @@
+{
+  "config": {
+    "duration": 5,
+    "targets": [
+      {
+        "name": "tcp_connect",
+        "type": "kernel",
+        "trace_arg": true,
+        "arg_types": [
+          "struct sock*",
+          "struct sockaddr*"
+        ]
+      },
+      {
+        "name": "inet_csk_accept",
+        "type": "kernel",
+        "trace_arg": true,
+        "arg_types": [
+          "struct sock*"
+        ]
+      },
+      {
+        "name": "mptcp_sendmsg",
+        "type": "kernel",
+        "trace_arg": true,
+        "arg_types": [
+          "struct sock*",
+          "struct msghdr*",
+          "size_t"
+        ]
+      },
+      {
+        "name": "mptcp_recvmsg",
+        "type": "kernel",
+        "trace_arg": true,
+        "arg_types": [
+          "struct sock*",
+          "struct msghdr*",
+          "size_t",
+          "int"
+        ]
+      },
+      {
+        "name": "tcp_close",
+        "type": "kernel",
+        "trace_arg": true,
+        "arg_types": [
+          "struct sock*",
+          "long"
+        ]
+      }
+    ],
+    "output": "tcp_trace_result.json"
+  },
+  "results": [
+    {
+      "timestamp": "1970-01-08T21:13:50.695084",
+      "latency_us": 20.849,
+      "pid": 3207,
+      "func": "tcp_connect",
+      "args": [
+        "0x0",
+        "0x0"
+      ]
+    },
+    {
+      "timestamp": "1970-01-08T21:13:50.700013",
+      "latency_us": 22.697,
+      "pid": 3207,
+      "func": "tcp_close",
+      "args": [
+        "0x0",
+        "0x0"
+      ]
+    },
+    {
+      "timestamp": "1970-01-08T21:13:51.686598",
+      "latency_us": 39.016,
+      "pid": 3207,
+      "func": "tcp_connect",
+      "args": [
+        "0x0",
+        "0x0"
+      ]
+    },
+    {
+      "timestamp": "1970-01-08T21:13:51.703285",
+      "latency_us": 12.639,
+      "pid": 3207,
+      "func": "tcp_close",
+      "args": [
+        "0x0",
+        "0x0"
+      ]
+    }
+  ],
+  "total_events": 4
+}

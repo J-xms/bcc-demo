@@ -1,0 +1,89 @@
+{
+  "results": [
+    {
+      "timestamp": 657299794535,
+      "latency_us": 28.706,
+      "pid": 3207,
+      "func": "tcp_connect",
+      "args": [
+        "0xffff8ed8042fe5c0",
+        "0x0"
+      ],
+      "stack": [
+        "tcp_v4_connect",
+        "__inet_stream_connect",
+        "inet_stream_connect",
+        "__sys_connect_file",
+        "__sys_connect",
+        "__x64_sys_connect",
+        "x64_sys_call",
+        "do_syscall_64",
+        "entry_SYSCALL_64_after_hwframe"
+      ]
+    },
+    {
+      "timestamp": 657299806669,
+      "latency_us": 11.149,
+      "pid": 3207,
+      "func": "tcp_close",
+      "args": [
+        "0xffff8ed8042fe5c0",
+        "0x0"
+      ],
+      "stack": [
+        "inet_release",
+        "__sock_release",
+        "sock_close",
+        "__fput",
+        "__fput_sync",
+        "__x64_sys_close",
+        "x64_sys_call",
+        "do_syscall_64",
+        "entry_SYSCALL_64_after_hwframe"
+      ]
+    },
+    {
+      "timestamp": 657301687390,
+      "latency_us": 30.707,
+      "pid": 3207,
+      "func": "tcp_connect",
+      "args": [
+        "0xffff8ed8042fe5c0",
+        "0x0"
+      ],
+      "stack": [
+        "tcp_v4_connect",
+        "__inet_stream_connect",
+        "inet_stream_connect",
+        "__sys_connect_file",
+        "__sys_connect",
+        "__x64_sys_connect",
+        "x64_sys_call",
+        "do_syscall_64",
+        "entry_SYSCALL_64_after_hwframe"
+      ]
+    },
+    {
+      "timestamp": 657301693917,
+      "latency_us": 12.959,
+      "pid": 3207,
+      "func": "tcp_close",
+      "args": [
+        "0xffff8ed8042fe5c0",
+        "0x0"
+      ],
+      "stack": [
+        "inet_release",
+        "__sock_release",
+        "sock_close",
+        "__fput",
+        "__fput_sync",
+        "__x64_sys_close",
+        "x64_sys_call",
+        "do_syscall_64",
+        "entry_SYSCALL_64_after_hwframe"
+      ]
+    }
+  ],
+  "total_events": 4
+}

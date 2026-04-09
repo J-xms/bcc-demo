@@ -1,0 +1,75 @@
+{
+  "results": [
+    {
+      "timestamp": 657071688383,
+      "latency_us": 26.828,
+      "pid": 3207,
+      "func": "tcp_connect",
+      "args": [
+        "0xffff8ed8042fd340",
+        "0x0"
+      ]
+    },
+    {
+      "timestamp": 657071699699,
+      "latency_us": 14.818,
+      "pid": 3207,
+      "func": "tcp_close",
+      "args": [
+        "0xffff8ed8042fd340",
+        "0x0"
+      ]
+    },
+    {
+      "timestamp": 657076789613,
+      "latency_us": 25.068,
+      "pid": 3207,
+      "func": "tcp_connect",
+      "args": [
+        "0xffff8ed80aa79bc0",
+        "0x0"
+      ]
+    },
+    {
+      "timestamp": 657076797242,
+      "latency_us": 13.549,
+      "pid": 3207,
+      "func": "tcp_close",
+      "args": [
+        "0xffff8ed80aa79bc0",
+        "0x0"
+      ]
+    },
+    {
+      "timestamp": 657077791560,
+      "latency_us": 27.187,
+      "pid": 3207,
+      "func": "tcp_connect",
+      "args": [
+        "0xffff8ed8042fc0c0",
+        "0x0"
+      ]
+    },
+    {
+      "timestamp": 657080690770,
+      "latency_us": 23.467,
+      "pid": 3207,
+      "func": "tcp_connect",
+      "args": [
+        "0xffff8ed8042fc0c0",
+        "0x0"
+      ]
+    },
+    {
+      "timestamp": 657080699458,
+      "latency_us": 18.108,
+      "pid": 3207,
+      "func": "tcp_close",
+      "args": [
+        "0xffff8ed8042fc0c0",
+        "0x0"
+      ]
+    }
+  ],
+  "total_events": 7
+}

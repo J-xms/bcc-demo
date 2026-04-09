@@ -1,0 +1,114 @@
+{
+  "config": {
+    "duration": 5,
+    "targets": [
+      {
+        "name": "tcp_connect",
+        "type": "kernel",
+        "trace_arg": true,
+        "arg_types": [
+          "struct sock*",
+          "struct sockaddr*"
+        ]
+      },
+      {
+        "name": "inet_csk_accept",
+        "type": "kernel",
+        "trace_arg": true,
+        "arg_types": [
+          "struct sock*"
+        ]
+      },
+      {
+        "name": "mptcp_sendmsg",
+        "type": "kernel",
+        "trace_arg": true,
+        "arg_types": [
+          "struct sock*",
+          "struct msghdr*",
+          "size_t"
+        ]
+      },
+      {
+        "name": "mptcp_recvmsg",
+        "type": "kernel",
+        "trace_arg": true,
+        "arg_types": [
+          "struct sock*",
+          "struct msghdr*",
+          "size_t",
+          "int"
+        ]
+      },
+      {
+        "name": "tcp_close",
+        "type": "kernel",
+        "trace_arg": true,
+        "arg_types": [
+          "struct sock*",
+          "long"
+        ]
+      }
+    ],
+    "output": "tcp_trace_result.json"
+  },
+  "results": [
+    {
+      "timestamp": "1970-01-08T21:06:26.163404",
+      "latency_us": 14.399,
+      "pid": 2370533,
+      "func": "tcp_connect",
+      "args": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "timestamp": "1970-01-08T21:06:26.789544",
+      "latency_us": 25.478,
+      "pid": 3207,
+      "func": "tcp_connect",
+      "args": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "timestamp": "1970-01-08T21:06:26.801427",
+      "latency_us": 18.389,
+      "pid": 3207,
+      "func": "tcp_close",
+      "args": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "timestamp": "1970-01-08T21:06:27.791732",
+      "latency_us": 21.288,
+      "pid": 3207,
+      "func": "tcp_connect",
+      "args": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "total_events": 4
+}

@@ -1,0 +1,2187 @@
+{
+  "results": [
+    {
+      "timestamp": 657721556336,
+      "latency_us": 5.97,
+      "pid": 3294,
+      "func": "malloc",
+      "args": [
+        "0x30"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657721556833,
+      "latency_us": 4.149,
+      "pid": 2917705,
+      "func": "free",
+      "args": [
+        "0x61e4160"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657721637636,
+      "latency_us": 6.159,
+      "pid": 3294,
+      "func": "malloc",
+      "args": [
+        "0x30"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657721683253,
+      "latency_us": 10.849,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x7fca84005740"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657721685013,
+      "latency_us": 5.24,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x7fca840102f0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657721685440,
+      "latency_us": 4.9,
+      "pid": 3214,
+      "func": "malloc",
+      "args": [
+        "0x10c"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657721686495,
+      "latency_us": 4.58,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x7fca7000a0d0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657721686984,
+      "latency_us": 4.81,
+      "pid": 3214,
+      "func": "malloc",
+      "args": [
+        "0x10c"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657721688464,
+      "latency_us": 5.689,
+      "pid": 3294,
+      "func": "malloc",
+      "args": [
+        "0x30"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657721688482,
+      "latency_us": 4.138,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x28d34920"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657721689795,
+      "latency_us": 4.83,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x7fca740070e0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657721689835,
+      "latency_us": 4.769,
+      "pid": 3214,
+      "func": "malloc",
+      "args": [
+        "0x10c"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657721691111,
+      "latency_us": 4.779,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x7fca64024dc0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657721691457,
+      "latency_us": 4.61,
+      "pid": 3214,
+      "func": "malloc",
+      "args": [
+        "0x10c"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657721692543,
+      "latency_us": 4.669,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x7fca74063a40"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657721693272,
+      "latency_us": 4.509,
+      "pid": 3214,
+      "func": "malloc",
+      "args": [
+        "0x118"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657721693978,
+      "latency_us": 4.479,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x7fca74064ea0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657721695088,
+      "latency_us": 4.929,
+      "pid": 3214,
+      "func": "malloc",
+      "args": [
+        "0x191"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657721696144,
+      "latency_us": 4.179,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x7fca800071f0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657721696590,
+      "latency_us": 4.259,
+      "pid": 3214,
+      "func": "malloc",
+      "args": [
+        "0x300"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657721697173,
+      "latency_us": 4.44,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x7fca70009a50"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657721697595,
+      "latency_us": 30.038,
+      "pid": 3207,
+      "func": "tcp_connect",
+      "args": [
+        "0xffff8ed8042fca00",
+        "0x0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657721697849,
+      "latency_us": 3.669,
+      "pid": 3214,
+      "func": "malloc",
+      "args": [
+        "0x1c4"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657721698507,
+      "latency_us": 3.849,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x7fca64025f20"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657721699293,
+      "latency_us": 3.839,
+      "pid": 3214,
+      "func": "malloc",
+      "args": [
+        "0x1b8"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657721699839,
+      "latency_us": 3.66,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x7fca700647c0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657721702838,
+      "latency_us": 9.948,
+      "pid": 3207,
+      "func": "tcp_close",
+      "args": [
+        "0xffff8ed8042fca00",
+        "0x0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657721703157,
+      "latency_us": 3.581,
+      "pid": 3207,
+      "func": "malloc",
+      "args": [
+        "0x450"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657721703491,
+      "latency_us": 3.619,
+      "pid": 3207,
+      "func": "free",
+      "args": [
+        "0x2b04d8b0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657721704659,
+      "latency_us": 4.52,
+      "pid": 3207,
+      "func": "malloc",
+      "args": [
+        "0x60"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657721706272,
+      "latency_us": 6.11,
+      "pid": 3207,
+      "func": "free",
+      "args": [
+        "0x2b03e0b0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657721718737,
+      "latency_us": 5.67,
+      "pid": 3207,
+      "func": "malloc",
+      "args": [
+        "0x5fb"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657721719022,
+      "latency_us": 5.39,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x286f7330"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657721932206,
+      "latency_us": 6.039,
+      "pid": 3294,
+      "func": "malloc",
+      "args": [
+        "0x30"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657721952519,
+      "latency_us": 5.58,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x286f71f0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722175968,
+      "latency_us": 5.329,
+      "pid": 3294,
+      "func": "malloc",
+      "args": [
+        "0x30"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722196305,
+      "latency_us": 5.699,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x286f71f0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722429897,
+      "latency_us": 11.738,
+      "pid": 3294,
+      "func": "malloc",
+      "args": [
+        "0x30"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722440094,
+      "latency_us": 6.13,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x286f7330"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722673840,
+      "latency_us": 4.779,
+      "pid": 3294,
+      "func": "malloc",
+      "args": [
+        "0x30"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722681748,
+      "latency_us": 5.249,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x7fca840016f0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722683848,
+      "latency_us": 5.2,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x7fca7c0047f0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722684017,
+      "latency_us": 4.259,
+      "pid": 3214,
+      "func": "malloc",
+      "args": [
+        "0x10c"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722685155,
+      "latency_us": 4.749,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x7fca7c015370"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722685426,
+      "latency_us": 4.48,
+      "pid": 3214,
+      "func": "malloc",
+      "args": [
+        "0x1b6"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722699770,
+      "latency_us": 6.029,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722816072,
+      "latency_us": 12.74,
+      "pid": 3294,
+      "func": "malloc",
+      "args": [
+        "0x30"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722826290,
+      "latency_us": 5.969,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x27e81880"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722872803,
+      "latency_us": 6.249,
+      "pid": 3294,
+      "func": "malloc",
+      "args": [
+        "0x19"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722874054,
+      "latency_us": 5.22,
+      "pid": 2917719,
+      "func": "malloc",
+      "args": [
+        "0x60"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722874055,
+      "latency_us": 4.939,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x27e81880"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722875063,
+      "latency_us": 5.06,
+      "pid": 2917720,
+      "func": "malloc",
+      "args": [
+        "0xc"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722875982,
+      "latency_us": 5.189,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x27dce320"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722877862,
+      "latency_us": 5.1,
+      "pid": 2917724,
+      "func": "free",
+      "args": [
+        "0x602147a11820"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722877907,
+      "latency_us": 4.06,
+      "pid": 2917724,
+      "func": "malloc",
+      "args": [
+        "0x48"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722878365,
+      "latency_us": 3.97,
+      "pid": 2917724,
+      "func": "malloc",
+      "args": [
+        "0x2f"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722878628,
+      "latency_us": 3.89,
+      "pid": 2917724,
+      "func": "free",
+      "args": [
+        "0x602147a122e0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722878878,
+      "latency_us": 4.1,
+      "pid": 2917724,
+      "func": "malloc",
+      "args": [
+        "0x50"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722879330,
+      "latency_us": 4.179,
+      "pid": 2917723,
+      "func": "malloc",
+      "args": [
+        "0x2f"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722879517,
+      "latency_us": 3.989,
+      "pid": 2917723,
+      "func": "free",
+      "args": [
+        "0x5e8fda99bea0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722880148,
+      "latency_us": 4.239,
+      "pid": 2917723,
+      "func": "malloc",
+      "args": [
+        "0x38"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722880590,
+      "latency_us": 4.049,
+      "pid": 2917723,
+      "func": "free",
+      "args": [
+        "0x5e8fda99ebf0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722880963,
+      "latency_us": 4.12,
+      "pid": 2917723,
+      "func": "malloc",
+      "args": [
+        "0x80"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722881255,
+      "latency_us": 4.569,
+      "pid": 2917724,
+      "func": "free",
+      "args": [
+        "0x602147a12750"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722876778,
+      "latency_us": 5.009,
+      "pid": 2917725,
+      "func": "malloc",
+      "args": [
+        "0xc"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722877420,
+      "latency_us": 4.509,
+      "pid": 2917725,
+      "func": "malloc",
+      "args": [
+        "0x3f"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722881968,
+      "latency_us": 3.9,
+      "pid": 2917722,
+      "func": "malloc",
+      "args": [
+        "0x48"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722882106,
+      "latency_us": 4.06,
+      "pid": 2917722,
+      "func": "free",
+      "args": [
+        "0x6127e34d7880"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722882611,
+      "latency_us": 3.29,
+      "pid": 2917722,
+      "func": "malloc",
+      "args": [
+        "0x3f"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722883870,
+      "latency_us": 4.809,
+      "pid": 2917722,
+      "func": "malloc",
+      "args": [
+        "0x2"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722884118,
+      "latency_us": 3.47,
+      "pid": 2917722,
+      "func": "free",
+      "args": [
+        "0x6127e34d38c0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722884557,
+      "latency_us": 3.58,
+      "pid": 2917722,
+      "func": "malloc",
+      "args": [
+        "0x8"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722885397,
+      "latency_us": 4.52,
+      "pid": 2917722,
+      "func": "malloc",
+      "args": [
+        "0xb"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722886198,
+      "latency_us": 4.259,
+      "pid": 2917722,
+      "func": "malloc",
+      "args": [
+        "0x2"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722886960,
+      "latency_us": 4.349,
+      "pid": 2917722,
+      "func": "malloc",
+      "args": [
+        "0x2"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722887720,
+      "latency_us": 4.44,
+      "pid": 2917722,
+      "func": "malloc",
+      "args": [
+        "0x10"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722888159,
+      "latency_us": 4.059,
+      "pid": 2917722,
+      "func": "free",
+      "args": [
+        "0x6127e34d98c0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722888527,
+      "latency_us": 4.299,
+      "pid": 2917722,
+      "func": "malloc",
+      "args": [
+        "0x2"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722889326,
+      "latency_us": 3.66,
+      "pid": 2917722,
+      "func": "malloc",
+      "args": [
+        "0x2"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722890127,
+      "latency_us": 3.45,
+      "pid": 2917722,
+      "func": "malloc",
+      "args": [
+        "0x11"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722890900,
+      "latency_us": 3.46,
+      "pid": 2917722,
+      "func": "malloc",
+      "args": [
+        "0x11"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722891652,
+      "latency_us": 3.479,
+      "pid": 2917722,
+      "func": "malloc",
+      "args": [
+        "0x11"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722892101,
+      "latency_us": 3.42,
+      "pid": 2917722,
+      "func": "free",
+      "args": [
+        "0x6127e34dfb80"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722892424,
+      "latency_us": 3.34,
+      "pid": 2917722,
+      "func": "malloc",
+      "args": [
+        "0x11"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722893201,
+      "latency_us": 4.039,
+      "pid": 2917722,
+      "func": "malloc",
+      "args": [
+        "0x11"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722894037,
+      "latency_us": 4.259,
+      "pid": 2917722,
+      "func": "malloc",
+      "args": [
+        "0x11"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722894957,
+      "latency_us": 4.28,
+      "pid": 2917722,
+      "func": "malloc",
+      "args": [
+        "0x11"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722896080,
+      "latency_us": 4.65,
+      "pid": 2917722,
+      "func": "free",
+      "args": [
+        "0x6127e34d3140"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722896514,
+      "latency_us": 4.409,
+      "pid": 2917722,
+      "func": "free",
+      "args": [
+        "0x6127e34d3de0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722896949,
+      "latency_us": 4.24,
+      "pid": 2917722,
+      "func": "free",
+      "args": [
+        "0x6127e34d4a40"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722897406,
+      "latency_us": 4.319,
+      "pid": 2917722,
+      "func": "free",
+      "args": [
+        "0x6127e34d56a0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722897834,
+      "latency_us": 4.239,
+      "pid": 2917722,
+      "func": "free",
+      "args": [
+        "0x6127e34d6300"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722898292,
+      "latency_us": 4.169,
+      "pid": 2917722,
+      "func": "free",
+      "args": [
+        "0x6127e34d9a60"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722898721,
+      "latency_us": 4.079,
+      "pid": 2917722,
+      "func": "free",
+      "args": [
+        "0x6127e34db0b0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722899220,
+      "latency_us": 4.23,
+      "pid": 2917722,
+      "func": "free",
+      "args": [
+        "0x6127e34dcb20"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722899652,
+      "latency_us": 4.089,
+      "pid": 2917722,
+      "func": "free",
+      "args": [
+        "0x6127e34de6b0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722900102,
+      "latency_us": 4.68,
+      "pid": 2917722,
+      "func": "free",
+      "args": [
+        "0x6127e34df930"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722900540,
+      "latency_us": 4.28,
+      "pid": 2917722,
+      "func": "free",
+      "args": [
+        "0x6127e34e2aa0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722900977,
+      "latency_us": 4.19,
+      "pid": 2917722,
+      "func": "free",
+      "args": [
+        "0x6127e34e4c30"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722901478,
+      "latency_us": 4.69,
+      "pid": 2917722,
+      "func": "free",
+      "args": [
+        "0x6127e34e7fb0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722903060,
+      "latency_us": 6.139,
+      "pid": 3294,
+      "func": "malloc",
+      "args": [
+        "0x30"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722905486,
+      "latency_us": 5.929,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x283202e0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722908318,
+      "latency_us": 6.259,
+      "pid": 2917729,
+      "func": "malloc",
+      "args": [
+        "0x68"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722908753,
+      "latency_us": 5.659,
+      "pid": 2917729,
+      "func": "malloc",
+      "args": [
+        "0x12c0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722909434,
+      "latency_us": 4.5,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x27cea050"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722909654,
+      "latency_us": 4.25,
+      "pid": 3294,
+      "func": "malloc",
+      "args": [
+        "0x24"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722910763,
+      "latency_us": 4.309,
+      "pid": 2917729,
+      "func": "malloc",
+      "args": [
+        "0x3"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722911473,
+      "latency_us": 4.4,
+      "pid": 2917729,
+      "func": "malloc",
+      "args": [
+        "0x8"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722911593,
+      "latency_us": 4.091,
+      "pid": 2917729,
+      "func": "free",
+      "args": [
+        "0xe140b70"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722912174,
+      "latency_us": 5.429,
+      "pid": 2917727,
+      "func": "malloc",
+      "args": [
+        "0x48"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722912664,
+      "latency_us": 4.429,
+      "pid": 2917729,
+      "func": "malloc",
+      "args": [
+        "0x2"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722912931,
+      "latency_us": 4.16,
+      "pid": 2917729,
+      "func": "free",
+      "args": [
+        "0xe14a4f0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722913212,
+      "latency_us": 4.55,
+      "pid": 2917728,
+      "func": "malloc",
+      "args": [
+        "0x37"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722913653,
+      "latency_us": 4.119,
+      "pid": 2917728,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722913649,
+      "latency_us": 4.26,
+      "pid": 2917729,
+      "func": "malloc",
+      "args": [
+        "0x7"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722914196,
+      "latency_us": 4.159,
+      "pid": 2917728,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722914704,
+      "latency_us": 4.38,
+      "pid": 2917727,
+      "func": "malloc",
+      "args": [
+        "0x3d"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722915397,
+      "latency_us": 4.37,
+      "pid": 2917727,
+      "func": "free",
+      "args": [
+        "0x6105566a9e60"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722916171,
+      "latency_us": 4.839,
+      "pid": 2917727,
+      "func": "malloc",
+      "args": [
+        "0xe1"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722916971,
+      "latency_us": 4.251,
+      "pid": 2917727,
+      "func": "malloc",
+      "args": [
+        "0x2"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722917770,
+      "latency_us": 4.289,
+      "pid": 2917727,
+      "func": "malloc",
+      "args": [
+        "0x2"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722918587,
+      "latency_us": 4.629,
+      "pid": 2917727,
+      "func": "malloc",
+      "args": [
+        "0x2"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722919453,
+      "latency_us": 4.289,
+      "pid": 2917727,
+      "func": "malloc",
+      "args": [
+        "0x2"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722920872,
+      "latency_us": 5.42,
+      "pid": 2917727,
+      "func": "malloc",
+      "args": [
+        "0x11"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722921720,
+      "latency_us": 4.389,
+      "pid": 2917727,
+      "func": "malloc",
+      "args": [
+        "0x11"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722922624,
+      "latency_us": 4.55,
+      "pid": 2917727,
+      "func": "malloc",
+      "args": [
+        "0x11"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722922729,
+      "latency_us": 4.03,
+      "pid": 2917727,
+      "func": "free",
+      "args": [
+        "0x6105566adb40"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722923500,
+      "latency_us": 4.09,
+      "pid": 2917727,
+      "func": "malloc",
+      "args": [
+        "0x11"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722924377,
+      "latency_us": 3.539,
+      "pid": 2917727,
+      "func": "malloc",
+      "args": [
+        "0x11"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722925199,
+      "latency_us": 3.47,
+      "pid": 2917727,
+      "func": "malloc",
+      "args": [
+        "0x11"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722925941,
+      "latency_us": 3.409,
+      "pid": 2917727,
+      "func": "malloc",
+      "args": [
+        "0x11"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722926660,
+      "latency_us": 3.451,
+      "pid": 2917727,
+      "func": "malloc",
+      "args": [
+        "0x11"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722927287,
+      "latency_us": 3.4,
+      "pid": 2917727,
+      "func": "free",
+      "args": [
+        "0x6105566a50e0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722927654,
+      "latency_us": 3.379,
+      "pid": 2917727,
+      "func": "free",
+      "args": [
+        "0x6105566a5ec0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722928025,
+      "latency_us": 4.109,
+      "pid": 2917727,
+      "func": "free",
+      "args": [
+        "0x6105566a6a60"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722928375,
+      "latency_us": 3.359,
+      "pid": 2917727,
+      "func": "free",
+      "args": [
+        "0x6105566a7780"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722928735,
+      "latency_us": 3.47,
+      "pid": 2917727,
+      "func": "free",
+      "args": [
+        "0x6105566a83e0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722929101,
+      "latency_us": 3.26,
+      "pid": 2917727,
+      "func": "free",
+      "args": [
+        "0x6105566abff0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722929461,
+      "latency_us": 3.769,
+      "pid": 2917727,
+      "func": "free",
+      "args": [
+        "0x6105566ade20"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722929817,
+      "latency_us": 3.26,
+      "pid": 2917727,
+      "func": "free",
+      "args": [
+        "0x6105566af920"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722930180,
+      "latency_us": 3.35,
+      "pid": 2917727,
+      "func": "free",
+      "args": [
+        "0x6105566b1000"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722930542,
+      "latency_us": 3.359,
+      "pid": 2917727,
+      "func": "free",
+      "args": [
+        "0x6105566b3f30"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722930895,
+      "latency_us": 3.44,
+      "pid": 2917727,
+      "func": "free",
+      "args": [
+        "0x6105566b5ff0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722931438,
+      "latency_us": 3.96,
+      "pid": 2917727,
+      "func": "free",
+      "args": [
+        "0x610556699b10"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722932215,
+      "latency_us": 4.399,
+      "pid": 2917718,
+      "func": "malloc",
+      "args": [
+        "0xa"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722934085,
+      "latency_us": 5.63,
+      "pid": 2917733,
+      "func": "malloc",
+      "args": [
+        "0x530"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722934642,
+      "latency_us": 3.789,
+      "pid": 2917733,
+      "func": "malloc",
+      "args": [
+        "0x5"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722934436,
+      "latency_us": 5.25,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x286e2050"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722935673,
+      "latency_us": 4.569,
+      "pid": 2917732,
+      "func": "malloc",
+      "args": [
+        "0x1d8"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722935875,
+      "latency_us": 4.059,
+      "pid": 2917732,
+      "func": "free",
+      "args": [
+        "0x5f8fd57e3ce0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722936835,
+      "latency_us": 4.25,
+      "pid": 2917732,
+      "func": "malloc",
+      "args": [
+        "0x4"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722937180,
+      "latency_us": 4.109,
+      "pid": 2917732,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722935224,
+      "latency_us": 4.579,
+      "pid": 2917733,
+      "func": "malloc",
+      "args": [
+        "0x9"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722936073,
+      "latency_us": 4.24,
+      "pid": 2917733,
+      "func": "malloc",
+      "args": [
+        "0x2"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722936437,
+      "latency_us": 5.829,
+      "pid": 2917733,
+      "func": "malloc",
+      "args": [
+        "0x12c0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722936503,
+      "latency_us": 3.96,
+      "pid": 2917733,
+      "func": "free",
+      "args": [
+        "0x1cd01d90"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722938127,
+      "latency_us": 4.27,
+      "pid": 2917733,
+      "func": "malloc",
+      "args": [
+        "0x2"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722938389,
+      "latency_us": 4.05,
+      "pid": 2917733,
+      "func": "free",
+      "args": [
+        "0x1cd05a50"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722939589,
+      "latency_us": 4.509,
+      "pid": 3294,
+      "func": "malloc",
+      "args": [
+        "0x30"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722942131,
+      "latency_us": 6.299,
+      "pid": 2917734,
+      "func": "malloc",
+      "args": [
+        "0x2"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722942374,
+      "latency_us": 4.098,
+      "pid": 2917734,
+      "func": "free",
+      "args": [
+        "0xb4fb060"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722942733,
+      "latency_us": 4.37,
+      "pid": 2917734,
+      "func": "malloc",
+      "args": [
+        "0xd"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722943427,
+      "latency_us": 8.389,
+      "pid": 2917734,
+      "func": "malloc",
+      "args": [
+        "0x13b8"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722944101,
+      "latency_us": 4.25,
+      "pid": 2917734,
+      "func": "free",
+      "args": [
+        "0xb507e30"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722944149,
+      "latency_us": 6.57,
+      "pid": 2917734,
+      "func": "malloc",
+      "args": [
+        "0x2a0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722944826,
+      "latency_us": 4.199,
+      "pid": 2917734,
+      "func": "malloc",
+      "args": [
+        "0x6"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722946693,
+      "latency_us": 6.129,
+      "pid": 2917718,
+      "func": "free",
+      "args": [
+        "0x62fe0b8cac10"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657722987773,
+      "latency_us": 5.349,
+      "pid": 3294,
+      "func": "malloc",
+      "args": [
+        "0x30"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723120036,
+      "latency_us": 8.289,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x284379a0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723191082,
+      "latency_us": 12.839,
+      "pid": 3294,
+      "func": "malloc",
+      "args": [
+        "0x30"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723363783,
+      "latency_us": 6.019,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x27d679f0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723434945,
+      "latency_us": 5.989,
+      "pid": 3294,
+      "func": "malloc",
+      "args": [
+        "0x30"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723617704,
+      "latency_us": 6.079,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x27d679f0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723678702,
+      "latency_us": 4.98,
+      "pid": 3294,
+      "func": "malloc",
+      "args": [
+        "0x30"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723681554,
+      "latency_us": 4.45,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x7fca7003e0a0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723682245,
+      "latency_us": 4.12,
+      "pid": 3214,
+      "func": "malloc",
+      "args": [
+        "0x1fa"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723685166,
+      "latency_us": 5.889,
+      "pid": 2917736,
+      "func": "free",
+      "args": [
+        "0x7fca70000bc0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723686952,
+      "latency_us": 5.48,
+      "pid": 3294,
+      "func": "malloc",
+      "args": [
+        "0x38"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723688987,
+      "latency_us": 5.15,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x2a4c5e00"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723690977,
+      "latency_us": 4.72,
+      "pid": 2917737,
+      "func": "malloc",
+      "args": [
+        "0x78"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723692201,
+      "latency_us": 4.859,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x7fca740249c0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723692817,
+      "latency_us": 4.209,
+      "pid": 1,
+      "func": "malloc",
+      "args": [
+        "0x1f"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723696410,
+      "latency_us": 4.71,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723696626,
+      "latency_us": 3.72,
+      "pid": 1,
+      "func": "malloc",
+      "args": [
+        "0x20"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723697319,
+      "latency_us": 4.569,
+      "pid": 2917737,
+      "func": "free",
+      "args": [
+        "0x5b9c74149280"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723697708,
+      "latency_us": 4.169,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4f59530"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723698056,
+      "latency_us": 3.85,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4d5e100"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723698550,
+      "latency_us": 4.529,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4e5a6d0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723699068,
+      "latency_us": 4.16,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4e23710"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723699509,
+      "latency_us": 4.1,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4e77de0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723700334,
+      "latency_us": 5.22,
+      "pid": 3214,
+      "func": "malloc",
+      "args": [
+        "0x1c0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723700673,
+      "latency_us": 4.67,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x7fca700390f0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723701065,
+      "latency_us": 4.179,
+      "pid": 3207,
+      "func": "free",
+      "args": [
+        "0x2afbf480"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723699924,
+      "latency_us": 4.37,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4d0e590"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723700304,
+      "latency_us": 4.229,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4e0c120"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723701457,
+      "latency_us": 3.41,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4f50870"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723701844,
+      "latency_us": 4.17,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4d84b90"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723702250,
+      "latency_us": 3.49,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4f6c3a0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723702630,
+      "latency_us": 3.28,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4e2b5d0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723703025,
+      "latency_us": 3.209,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723703401,
+      "latency_us": 3.32,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4df7a60"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723703773,
+      "latency_us": 3.44,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4dd7fd0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723704169,
+      "latency_us": 3.34,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4d499d0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723704546,
+      "latency_us": 3.33,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4d04ee0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723704919,
+      "latency_us": 3.28,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4d42130"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723705316,
+      "latency_us": 3.439,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4df6370"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723705700,
+      "latency_us": 3.299,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4df8de0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723706157,
+      "latency_us": 12.189,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4ef7ee0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723706630,
+      "latency_us": 4.29,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4fc7330"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723780207,
+      "latency_us": 5.78,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x2a4c5e00"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657723820861,
+      "latency_us": 13.928,
+      "pid": 3294,
+      "func": "malloc",
+      "args": [
+        "0x30"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657724024187,
+      "latency_us": 4.99,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x27ef1d30"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657724064834,
+      "latency_us": 5.869,
+      "pid": 3294,
+      "func": "malloc",
+      "args": [
+        "0x30"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657724091748,
+      "latency_us": 4.749,
+      "pid": 2370533,
+      "func": "malloc",
+      "args": [
+        "0x18"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657724125836,
+      "latency_us": 5.139,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x28a94920"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657724329071,
+      "latency_us": 5.209,
+      "pid": 3294,
+      "func": "malloc",
+      "args": [
+        "0x30"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657724379910,
+      "latency_us": 5.87,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x28a94920"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657724582925,
+      "latency_us": 5.89,
+      "pid": 3294,
+      "func": "malloc",
+      "args": [
+        "0x30"
+      ],
+      "stack": []
+    }
+  ],
+  "total_events": 218
+}

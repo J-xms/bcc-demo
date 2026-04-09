@@ -1,0 +1,32 @@
+{
+  "duration": 5,
+  "targets": [
+    {
+      "name": "malloc",
+      "type": "usdt",
+      "lib": "c",
+      "trace_arg": true,
+      "arg_types": ["size_t"]
+    },
+    {
+      "name": "free",
+      "type": "usdt",
+      "lib": "c",
+      "trace_arg": true,
+      "arg_types": ["void*"]
+    },
+    {
+      "name": "tcp_connect",
+      "type": "kernel",
+      "trace_arg": true,
+      "arg_types": ["struct sock*", "struct sockaddr*"]
+    },
+    {
+      "name": "tcp_close",
+      "type": "kernel",
+      "trace_arg": true,
+      "arg_types": ["struct sock*", "long"]
+    }
+  ],
+  "output": "mixed_trace_result.json"
+}

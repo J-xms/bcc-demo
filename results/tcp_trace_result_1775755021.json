@@ -1,0 +1,145 @@
+{
+  "results": [
+    {
+      "timestamp": 659241689131,
+      "latency_us": 26.886,
+      "pid": 3207,
+      "tid": 3207,
+      "func": "tcp_connect",
+      "args": [
+        "0xffff8ed80aa7ef00",
+        "0x0"
+      ],
+      "kern_stack": [
+        "tcp_v4_connect",
+        "__inet_stream_connect",
+        "inet_stream_connect",
+        "__sys_connect_file",
+        "__sys_connect",
+        "__x64_sys_connect",
+        "x64_sys_call",
+        "do_syscall_64",
+        "entry_SYSCALL_64_after_hwframe"
+      ],
+      "kern_stack_id": 126,
+      "user_stack": [
+        "__connect",
+        "0x1"
+      ],
+      "user_stack_id": 195
+    },
+    {
+      "timestamp": 659241694272,
+      "latency_us": 16.179,
+      "pid": 3207,
+      "tid": 3207,
+      "func": "tcp_close",
+      "args": [
+        "0xffff8ed80aa7ef00",
+        "0x0"
+      ],
+      "kern_stack": [
+        "inet_release",
+        "__sock_release",
+        "sock_close",
+        "__fput",
+        "__fput_sync",
+        "__x64_sys_close",
+        "x64_sys_call",
+        "do_syscall_64",
+        "entry_SYSCALL_64_after_hwframe"
+      ],
+      "kern_stack_id": 552,
+      "user_stack": [
+        "close",
+        "0x2af44cb0",
+        "0x6534e0"
+      ],
+      "user_stack_id": 943
+    },
+    {
+      "timestamp": 659244729842,
+      "latency_us": 32.457,
+      "pid": 2370533,
+      "tid": 2370533,
+      "func": "tcp_close",
+      "args": [
+        "0xffff8ed80aa79bc0",
+        "0x0"
+      ],
+      "kern_stack": [
+        "inet_release",
+        "__sock_release",
+        "sock_close",
+        "__fput",
+        "__fput_sync",
+        "__x64_sys_close",
+        "x64_sys_call",
+        "do_syscall_64",
+        "entry_SYSCALL_64_after_hwframe"
+      ],
+      "kern_stack_id": 552,
+      "user_stack": [
+        "syscall",
+        "uv__stream_close",
+        "uv_close",
+        "node::HandleWrap::Close(v8::FunctionCallbackInfo<v8::Value> const&)",
+        "Builtins_CallApiCallbackOptimized",
+        "0x7a9a0107b131",
+        "0x7a9a00c1a00f",
+        "0x7a9a00630ecc",
+        "0x7a9a00dfee8d",
+        "0x7a9a006301e3",
+        "0x7a9a006323fa",
+        "0x7a9a009d77b4",
+        "0x7a9a009d9bd6",
+        "0x7a9a0098b602",
+        "0x7a9a009db28a",
+        "Builtins_JSEntryTrampoline",
+        "Builtins_JSEntry",
+        "v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, v8::internal::(anonymous namespace)::InvokeParams const&)",
+        "v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)",
+        "v8::Object::CallAsFunction(v8::Local<v8::Context>, v8::Local<v8::Value>, int, v8::Local<v8::Value>*)",
+        "node::Environment::RunTimers(uv_timer_s*)",
+        "uv__run_timers",
+        "uv_run",
+        "node::SpinEventLoopInternal(node::Environment*)",
+        "node::NodeMainInstance::Run()",
+        "node::Start(int, char**)",
+        "__libc_start_call_main",
+        "__libc_start_main_impl",
+        "_start"
+      ],
+      "user_stack_id": 789
+    },
+    {
+      "timestamp": 659246790243,
+      "latency_us": 31.937,
+      "pid": 3207,
+      "tid": 3207,
+      "func": "tcp_connect",
+      "args": [
+        "0xffff8ed80aa79bc0",
+        "0x0"
+      ],
+      "kern_stack": [
+        "tcp_v4_connect",
+        "__inet_stream_connect",
+        "inet_stream_connect",
+        "__sys_connect_file",
+        "__sys_connect",
+        "__x64_sys_connect",
+        "x64_sys_call",
+        "do_syscall_64",
+        "entry_SYSCALL_64_after_hwframe"
+      ],
+      "kern_stack_id": 126,
+      "user_stack": [
+        "__connect",
+        "0x1"
+      ],
+      "user_stack_id": 195
+    }
+  ],
+  "total_events": 4
+}

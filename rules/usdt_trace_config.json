@@ -1,0 +1,20 @@
+{
+  "duration": 5,
+  "targets": [
+    {
+      "name": "malloc",
+      "type": "usdt",
+      "lib": "c",
+      "trace_arg": true,
+      "arg_types": ["size_t"]
+    },
+    {
+      "name": "free",
+      "type": "usdt",
+      "lib": "c",
+      "trace_arg": true,
+      "arg_types": ["void*"]
+    }
+  ],
+  "output": "usdt_trace_result.json"
+}

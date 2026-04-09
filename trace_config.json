@@ -1,0 +1,24 @@
+{
+  "duration": 10,
+  "targets": [
+    {
+      "name": "openat",
+      "type": "kernel",
+      "trace_arg": true,
+      "arg_types": ["char*", "int"]
+    },
+    {
+      "name": "read",
+      "type": "kernel",
+      "trace_arg": true,
+      "arg_types": ["int", "void*", "size_t"]
+    },
+    {
+      "name": "write",
+      "type": "kernel",
+      "trace_arg": true,
+      "arg_types": ["int", "void*", "size_t"]
+    }
+  ],
+  "output": "trace_result.json"
+}

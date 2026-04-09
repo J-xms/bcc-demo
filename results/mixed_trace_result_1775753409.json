@@ -1,0 +1,6774 @@
+{
+  "results": [
+    {
+      "timestamp": 657631680468,
+      "latency_us": 5.109,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "__pthread_create_2_1",
+        "PyThread_start_new_thread",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631681169,
+      "latency_us": 5.07,
+      "pid": 3214,
+      "func": "malloc",
+      "args": [
+        "0x10c"
+      ],
+      "stack": [
+        "_PyUnicode_New"
+      ]
+    },
+    {
+      "timestamp": 657631681528,
+      "latency_us": 4.07,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x7fca6800ac90"
+      ],
+      "stack": [
+        "unicode_dealloc",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631682316,
+      "latency_us": 4.319,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "__pthread_create_2_1",
+        "PyThread_start_new_thread",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631683748,
+      "latency_us": 4.9,
+      "pid": 3214,
+      "func": "malloc",
+      "args": [
+        "0xf"
+      ],
+      "stack": [
+        "__GI___strdup",
+        "tzset_internal",
+        "__tz_convert",
+        "time_convert",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631683968,
+      "latency_us": 4.51,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x7fca64023010"
+      ],
+      "stack": [
+        "unicode_dealloc"
+      ]
+    },
+    {
+      "timestamp": 657631684570,
+      "latency_us": 4.55,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x7fca64007250"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657631685038,
+      "latency_us": 4.49,
+      "pid": 3214,
+      "func": "malloc",
+      "args": [
+        "0x10c"
+      ],
+      "stack": [
+        "PyObject_Realloc"
+      ]
+    },
+    {
+      "timestamp": 657631685952,
+      "latency_us": 4.21,
+      "pid": 3214,
+      "func": "malloc",
+      "args": [
+        "0x60"
+      ],
+      "stack": [
+        "PyList_New"
+      ]
+    },
+    {
+      "timestamp": 657631686571,
+      "latency_us": 4.469,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x7fca6800cb70"
+      ],
+      "stack": [
+        "list_ass_slice"
+      ]
+    },
+    {
+      "timestamp": 657631688054,
+      "latency_us": 4.699,
+      "pid": 3214,
+      "func": "malloc",
+      "args": [
+        "0x20"
+      ],
+      "stack": [
+        "PyThread_allocate_lock",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631688572,
+      "latency_us": 4.599,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x7fca6c011d60"
+      ],
+      "stack": [
+        "unicode_dealloc",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631689310,
+      "latency_us": 4.19,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x7fca6c00daa0"
+      ],
+      "stack": [
+        "unicode_dealloc"
+      ]
+    },
+    {
+      "timestamp": 657631689333,
+      "latency_us": 3.839,
+      "pid": 3214,
+      "func": "malloc",
+      "args": [
+        "0x1"
+      ],
+      "stack": [
+        "function_call",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631690763,
+      "latency_us": 4.4,
+      "pid": 3214,
+      "func": "malloc",
+      "args": [
+        "0x10c"
+      ],
+      "stack": [
+        "PyObject_Realloc"
+      ]
+    },
+    {
+      "timestamp": 657631692142,
+      "latency_us": 4.52,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x27ebdb90"
+      ],
+      "stack": [
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631692341,
+      "latency_us": 4.67,
+      "pid": 3214,
+      "func": "malloc",
+      "args": [
+        "0x124"
+      ],
+      "stack": [
+        "PyString_FromStringAndSize"
+      ]
+    },
+    {
+      "timestamp": 657631693486,
+      "latency_us": 26.457,
+      "pid": 3207,
+      "func": "tcp_connect",
+      "args": [
+        "0xffff8ed80aa7ef00",
+        "0x0"
+      ],
+      "stack": [
+        "__connect",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631693586,
+      "latency_us": 4.19,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631694462,
+      "latency_us": 4.309,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x7fca6c00dc70"
+      ],
+      "stack": [
+        "unicode_dealloc",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631694892,
+      "latency_us": 4.19,
+      "pid": 3214,
+      "func": "malloc",
+      "args": [
+        "0x1c4"
+      ],
+      "stack": [
+        "PyObject_Realloc"
+      ]
+    },
+    {
+      "timestamp": 657631695285,
+      "latency_us": 4.45,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x7fca6c00e510"
+      ],
+      "stack": [
+        "unicode_dealloc",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631696011,
+      "latency_us": 17.487,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x197b6420"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631698587,
+      "latency_us": 4.03,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631699988,
+      "latency_us": 4.479,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631725844,
+      "latency_us": 5.079,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631727402,
+      "latency_us": 4.519,
+      "pid": 3207,
+      "func": "free",
+      "args": [
+        "0x2adf9280"
+      ],
+      "stack": [
+        "list_dealloc"
+      ]
+    },
+    {
+      "timestamp": 657631727440,
+      "latency_us": 4.149,
+      "pid": 3207,
+      "func": "malloc",
+      "args": [
+        "0x450"
+      ],
+      "stack": [
+        "sre_match"
+      ]
+    },
+    {
+      "timestamp": 657631728899,
+      "latency_us": 4.359,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631730557,
+      "latency_us": 4.219,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631734566,
+      "latency_us": 4.94,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x44"
+      ],
+      "stack": [
+        "operator new(unsigned long)",
+        "[unknown]",
+        "ProcSyms::ModulePath::ModulePath(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, bool)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631735269,
+      "latency_us": 4.189,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631736142,
+      "latency_us": 4.32,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631736664,
+      "latency_us": 4.18,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631738414,
+      "latency_us": 5.57,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631738965,
+      "latency_us": 3.38,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631740254,
+      "latency_us": 3.6,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631740726,
+      "latency_us": 3.31,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631740942,
+      "latency_us": 4.39,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x58"
+      ],
+      "stack": [
+        "operator new(unsigned long)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631741745,
+      "latency_us": 3.75,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "[unknown]",
+        "ProcSyms::Module::load_sym_table()",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631742226,
+      "latency_us": 3.36,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "[unknown]",
+        "ProcSyms::Module::load_sym_table()",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631743239,
+      "latency_us": 3.828,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631763477,
+      "latency_us": 5.069,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x27ebdb90"
+      ],
+      "stack": [
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631786724,
+      "latency_us": 5.279,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631787920,
+      "latency_us": 4.519,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631788019,
+      "latency_us": 4.409,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x10697"
+      ],
+      "stack": [
+        "[unknown]",
+        "elf_strptr",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631788557,
+      "latency_us": 4.309,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631789156,
+      "latency_us": 3.748,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631791110,
+      "latency_us": 4.12,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631792671,
+      "latency_us": 4.689,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631793922,
+      "latency_us": 8.02,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x24d80"
+      ],
+      "stack": [
+        "[unknown]",
+        "elf_getdata",
+        "[unknown]",
+        "[unknown]",
+        "ProcSyms::Module::load_sym_table()",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631794500,
+      "latency_us": 3.769,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "[unknown]",
+        "ProcSyms::Module::load_sym_table()",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631795305,
+      "latency_us": 3.58,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631796544,
+      "latency_us": 3.789,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631797127,
+      "latency_us": 3.379,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631797617,
+      "latency_us": 3.67,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x30"
+      ],
+      "stack": [
+        "operator new(unsigned long)",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631798231,
+      "latency_us": 3.41,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631681875,
+      "latency_us": 5.611,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x3f8"
+      ],
+      "stack": [
+        "PyMem_Malloc",
+        "[unknown]",
+        "[unknown]",
+        "_PyObject_MakeTpCall",
+        "_PyEval_EvalFrameDefault",
+        "[unknown]",
+        "_PyEval_EvalFrameDefault",
+        "PyObject_Vectorcall",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "perf_reader_poll",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631685676,
+      "latency_us": 4.85,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631686145,
+      "latency_us": 4.14,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631690366,
+      "latency_us": 5.089,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631691099,
+      "latency_us": 4.19,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x18b15cf0"
+      ],
+      "stack": [
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631692882,
+      "latency_us": 4.36,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631693361,
+      "latency_us": 4.54,
+      "pid": 3214,
+      "func": "malloc",
+      "args": [
+        "0x20"
+      ],
+      "stack": [
+        "PyList_Append"
+      ]
+    },
+    {
+      "timestamp": 657631696483,
+      "latency_us": 5.048,
+      "pid": 3214,
+      "func": "malloc",
+      "args": [
+        "0x10c"
+      ],
+      "stack": [
+        "PyObject_Realloc"
+      ]
+    },
+    {
+      "timestamp": 657631696883,
+      "latency_us": 3.52,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x7fca64027640"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657631701358,
+      "latency_us": 4.759,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631702651,
+      "latency_us": 4.88,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631702810,
+      "latency_us": 10.019,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x940"
+      ],
+      "stack": [
+        "[unknown]",
+        "gelf_getshdr",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631703576,
+      "latency_us": 4.199,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631705529,
+      "latency_us": 3.83,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631706811,
+      "latency_us": 11.528,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631709366,
+      "latency_us": 8.079,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631710258,
+      "latency_us": 18.227,
+      "pid": 3207,
+      "func": "tcp_close",
+      "args": [
+        "0xffff8ed80aa7ef00",
+        "0x0"
+      ],
+      "stack": [
+        "close",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631710547,
+      "latency_us": 4.21,
+      "pid": 3207,
+      "func": "malloc",
+      "args": [
+        "0x450"
+      ],
+      "stack": [
+        "sre_match"
+      ]
+    },
+    {
+      "timestamp": 657631710893,
+      "latency_us": 4.089,
+      "pid": 3207,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "__tzfile_read",
+        "tzset_internal",
+        "__tz_convert",
+        "time_convert",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631712077,
+      "latency_us": 4.15,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631712957,
+      "latency_us": 4.129,
+      "pid": 3207,
+      "func": "malloc",
+      "args": [
+        "0x4c8"
+      ],
+      "stack": [
+        "string_concat",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631712967,
+      "latency_us": 3.47,
+      "pid": 3207,
+      "func": "free",
+      "args": [
+        "0x2b047e30"
+      ],
+      "stack": [
+        "dict_repr"
+      ]
+    },
+    {
+      "timestamp": 657631714465,
+      "latency_us": 3.499,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631715705,
+      "latency_us": 3.48,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631717029,
+      "latency_us": 3.439,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x19c09920"
+      ],
+      "stack": [
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631718538,
+      "latency_us": 3.41,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631718960,
+      "latency_us": 3.76,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x147"
+      ],
+      "stack": [
+        "[unknown]",
+        "elf_strptr",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631720526,
+      "latency_us": 3.52,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631721789,
+      "latency_us": 3.419,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631722955,
+      "latency_us": 3.4,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631731945,
+      "latency_us": 4.9,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x1b2e58f0"
+      ],
+      "stack": [
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631733894,
+      "latency_us": 4.99,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631747935,
+      "latency_us": 6.199,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "[unknown]",
+        "ProcSyms::Module::load_sym_table()",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631748913,
+      "latency_us": 4.531,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631749616,
+      "latency_us": 4.599,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631749969,
+      "latency_us": 3.329,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631750119,
+      "latency_us": 3.419,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x21f4a"
+      ],
+      "stack": [
+        "[unknown]",
+        "elf_strptr",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631750411,
+      "latency_us": 3.2,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x191b1b10"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631750810,
+      "latency_us": 3.339,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631751169,
+      "latency_us": 3.4,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631752094,
+      "latency_us": 3.579,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631752710,
+      "latency_us": 3.339,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631753245,
+      "latency_us": 3.52,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631753905,
+      "latency_us": 3.44,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631754277,
+      "latency_us": 3.608,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631754706,
+      "latency_us": 3.299,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x27"
+      ],
+      "stack": [
+        "operator new(unsigned long)",
+        "[unknown]",
+        "ProcSyms::ModulePath::ModulePath(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, bool)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631754749,
+      "latency_us": 3.149,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631755167,
+      "latency_us": 3.43,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x18c412b0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631755585,
+      "latency_us": 3.35,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x18c42f70"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631756047,
+      "latency_us": 3.331,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631756590,
+      "latency_us": 3.34,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x192491f0"
+      ],
+      "stack": [
+        "__new_fclose",
+        "bcc_perf_map_nstgid",
+        "bcc_perf_map_path",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631757938,
+      "latency_us": 3.97,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x3f8"
+      ],
+      "stack": [
+        "PyMem_Malloc",
+        "[unknown]",
+        "[unknown]",
+        "_PyObject_MakeTpCall",
+        "_PyEval_EvalFrameDefault",
+        "PyObject_Vectorcall",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "perf_reader_poll",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631758132,
+      "latency_us": 3.319,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631758691,
+      "latency_us": 3.529,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631759107,
+      "latency_us": 3.32,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631759540,
+      "latency_us": 3.13,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x1b035a30"
+      ],
+      "stack": [
+        "[unknown]",
+        "ProcSyms::ModulePath::ModulePath(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, bool)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631759973,
+      "latency_us": 3.35,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631760389,
+      "latency_us": 4.13,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631760872,
+      "latency_us": 3.68,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x154"
+      ],
+      "stack": [
+        "[unknown]",
+        "elf_strptr",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631760923,
+      "latency_us": 3.188,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631761352,
+      "latency_us": 3.31,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631761810,
+      "latency_us": 3.159,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631762234,
+      "latency_us": 3.39,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631762653,
+      "latency_us": 3.16,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631763063,
+      "latency_us": 3.28,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631763849,
+      "latency_us": 3.371,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x201"
+      ],
+      "stack": [
+        "operator new(unsigned long)",
+        "std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::reserve(unsigned long)",
+        "std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::overflow(int)",
+        "std::basic_streambuf<char, std::char_traits<char> >::xsputn(char const*, long)",
+        "std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const",
+        "std::ostream& std::ostream::_M_insert<long>(long)",
+        "[unknown]",
+        "[unknown]",
+        "ProcSyms::ModulePath::ModulePath(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, bool)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631763921,
+      "latency_us": 3.31,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631764339,
+      "latency_us": 3.3,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631764749,
+      "latency_us": 3.23,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631765171,
+      "latency_us": 3.269,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631765616,
+      "latency_us": 3.181,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631766044,
+      "latency_us": 3.15,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631766461,
+      "latency_us": 3.209,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631766867,
+      "latency_us": 3.341,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631766963,
+      "latency_us": 3.2,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x201"
+      ],
+      "stack": [
+        "operator new(unsigned long)",
+        "std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::reserve(unsigned long)",
+        "std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::overflow(int)",
+        "std::basic_streambuf<char, std::char_traits<char> >::xsputn(char const*, long)",
+        "std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const",
+        "std::ostream& std::ostream::_M_insert<long>(long)",
+        "[unknown]",
+        "[unknown]",
+        "ProcSyms::ModulePath::ModulePath(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, bool)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631767358,
+      "latency_us": 3.12,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x1b035a30"
+      ],
+      "stack": [
+        "[unknown]",
+        "ProcSyms::ModulePath::ModulePath(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, bool)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631767785,
+      "latency_us": 3.91,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631768277,
+      "latency_us": 4.239,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631768817,
+      "latency_us": 4.23,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631769345,
+      "latency_us": 4.469,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631769878,
+      "latency_us": 4.129,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631770410,
+      "latency_us": 4.19,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631770914,
+      "latency_us": 4.439,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x201"
+      ],
+      "stack": [
+        "operator new(unsigned long)",
+        "std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::reserve(unsigned long)",
+        "std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::overflow(int)",
+        "std::basic_streambuf<char, std::char_traits<char> >::xsputn(char const*, long)",
+        "std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const",
+        "std::ostream& std::ostream::_M_insert<long>(long)",
+        "[unknown]",
+        "[unknown]",
+        "ProcSyms::ModulePath::ModulePath(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, bool)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631771015,
+      "latency_us": 4.079,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631771544,
+      "latency_us": 4.19,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631772158,
+      "latency_us": 4.509,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631773428,
+      "latency_us": 4.56,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "[unknown]",
+        "ProcSyms::Module::load_sym_table()",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631774013,
+      "latency_us": 4.099,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "[unknown]",
+        "ProcSyms::Module::load_sym_table()",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631775389,
+      "latency_us": 4.01,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x1f"
+      ],
+      "stack": [
+        "operator new(unsigned long)",
+        "std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long)",
+        "std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long)",
+        "[unknown]",
+        "ProcStat::ProcStat(int)",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631775540,
+      "latency_us": 3.469,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631776036,
+      "latency_us": 4.15,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631776474,
+      "latency_us": 3.349,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631776882,
+      "latency_us": 3.36,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x1aee03e0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631777381,
+      "latency_us": 3.419,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631777803,
+      "latency_us": 3.28,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631777864,
+      "latency_us": 3.21,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x29"
+      ],
+      "stack": [
+        "operator new(unsigned long)",
+        "[unknown]",
+        "ProcSyms::ModulePath::ModulePath(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, bool)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631778278,
+      "latency_us": 4.039,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631778699,
+      "latency_us": 3.31,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631779172,
+      "latency_us": 3.19,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631779586,
+      "latency_us": 3.27,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631780062,
+      "latency_us": 3.23,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631780469,
+      "latency_us": 3.47,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631780667,
+      "latency_us": 3.12,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x3c"
+      ],
+      "stack": [
+        "operator new(unsigned long)",
+        "std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long)",
+        "std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long)",
+        "[unknown]",
+        "ProcSyms::ModulePath::ModulePath(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, bool)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631780896,
+      "latency_us": 3.28,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631781373,
+      "latency_us": 3.809,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631781792,
+      "latency_us": 3.25,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631782264,
+      "latency_us": 3.38,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631782629,
+      "latency_us": 3.298,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631783097,
+      "latency_us": 3.23,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631783522,
+      "latency_us": 3.28,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631783619,
+      "latency_us": 3.139,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x25"
+      ],
+      "stack": [
+        "operator new(unsigned long)",
+        "[unknown]",
+        "ProcSyms::ModulePath::ModulePath(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, bool)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631783982,
+      "latency_us": 3.689,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631784465,
+      "latency_us": 3.89,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631819743,
+      "latency_us": 4.9,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x20"
+      ],
+      "stack": [
+        "[unknown]",
+        "[unknown]",
+        "__cxa_demangle",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631819939,
+      "latency_us": 3.469,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631820842,
+      "latency_us": 3.429,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x19ad6f40"
+      ],
+      "stack": [
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631822479,
+      "latency_us": 3.44,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x40"
+      ],
+      "stack": [
+        "[unknown]",
+        "[unknown]",
+        "__cxa_demangle",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631822843,
+      "latency_us": 3.421,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631800307,
+      "latency_us": 3.639,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x1943b0d0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "[unknown]",
+        "ProcSyms::Module::load_sym_table()",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631801545,
+      "latency_us": 3.469,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631802059,
+      "latency_us": 3.419,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631802553,
+      "latency_us": 4.17,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x3f8"
+      ],
+      "stack": [
+        "PyMem_Malloc",
+        "[unknown]",
+        "[unknown]",
+        "_PyObject_MakeTpCall",
+        "_PyEval_EvalFrameDefault",
+        "PyObject_Vectorcall",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "perf_reader_poll",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631803281,
+      "latency_us": 3.569,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631804097,
+      "latency_us": 3.52,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631804594,
+      "latency_us": 3.349,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631805023,
+      "latency_us": 4.03,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631805369,
+      "latency_us": 3.39,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631805782,
+      "latency_us": 3.32,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631806219,
+      "latency_us": 3.32,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "[unknown]",
+        "ProcSyms::Module::load_sym_table()",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631806847,
+      "latency_us": 3.72,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631807173,
+      "latency_us": 3.949,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x40"
+      ],
+      "stack": [
+        "[unknown]",
+        "[unknown]",
+        "__cxa_demangle",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631809042,
+      "latency_us": 4.649,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x194540b0"
+      ],
+      "stack": [
+        "PyMem_Free",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "_PyEval_EvalFrameDefault",
+        "PyObject_Vectorcall",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "perf_reader_poll",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631810483,
+      "latency_us": 4.069,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x380"
+      ],
+      "stack": [
+        "operator new(unsigned long)",
+        "ProcSyms::Module::_add_symbol_lazy(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, int, void*)",
+        "[unknown]",
+        "[unknown]",
+        "ProcSyms::Module::load_sym_table()",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631811064,
+      "latency_us": 3.82,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "[unknown]",
+        "ProcSyms::Module::load_sym_table()",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631811596,
+      "latency_us": 4.22,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x19aae0c0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "[unknown]",
+        "ProcSyms::Module::load_sym_table()",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631812791,
+      "latency_us": 4.3,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631813418,
+      "latency_us": 4.31,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631815651,
+      "latency_us": 4.37,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631816359,
+      "latency_us": 4.489,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631816529,
+      "latency_us": 4.239,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x1a"
+      ],
+      "stack": [
+        "operator new(unsigned long)",
+        "std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct(unsigned long, char)",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631817936,
+      "latency_us": 4.559,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x19ad6dd0"
+      ],
+      "stack": [
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631824381,
+      "latency_us": 3.479,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631825292,
+      "latency_us": 3.52,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x48"
+      ],
+      "stack": [
+        "operator new(unsigned long)",
+        "std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct(unsigned long, char)",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657631825454,
+      "latency_us": 3.329,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657632017215,
+      "latency_us": 5.23,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x28561a10"
+      ],
+      "stack": [
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657632027391,
+      "latency_us": 6.65,
+      "pid": 3294,
+      "func": "malloc",
+      "args": [
+        "0x30"
+      ],
+      "stack": [
+        "operator new(unsigned long)",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657632028964,
+      "latency_us": 4.759,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657632210135,
+      "latency_us": 5.079,
+      "pid": 3294,
+      "func": "malloc",
+      "args": [
+        "0x30"
+      ],
+      "stack": [
+        "operator new(unsigned long)",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657632260926,
+      "latency_us": 5.86,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x28561a10"
+      ],
+      "stack": [
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657632453675,
+      "latency_us": 5.98,
+      "pid": 3294,
+      "func": "malloc",
+      "args": [
+        "0x30"
+      ],
+      "stack": [
+        "operator new(unsigned long)",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657632504484,
+      "latency_us": 4.949,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x27ebdb90"
+      ],
+      "stack": [
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657632686623,
+      "latency_us": 5.37,
+      "pid": 3214,
+      "func": "malloc",
+      "args": [
+        "0x20"
+      ],
+      "stack": [
+        "listappend",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657632686858,
+      "latency_us": 4.249,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "__pthread_create_2_1",
+        "PyThread_start_new_thread",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657632688147,
+      "latency_us": 5.19,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x7fca7003bfa0"
+      ],
+      "stack": [
+        "unicode_dealloc",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657632688589,
+      "latency_us": 4.399,
+      "pid": 3214,
+      "func": "malloc",
+      "args": [
+        "0x10c"
+      ],
+      "stack": [
+        "PyObject_Realloc"
+      ]
+    },
+    {
+      "timestamp": 657632690109,
+      "latency_us": 5.23,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x7fca70038370"
+      ],
+      "stack": [
+        "unicode_dealloc",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657632690884,
+      "latency_us": 4.799,
+      "pid": 3214,
+      "func": "malloc",
+      "args": [
+        "0x1b8"
+      ],
+      "stack": [
+        "PyObject_Realloc"
+      ]
+    },
+    {
+      "timestamp": 657632695615,
+      "latency_us": 5.129,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x7fca6c004ff0"
+      ],
+      "stack": [
+        "time_strftime",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657632717757,
+      "latency_us": 4.889,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x281649a0"
+      ],
+      "stack": [
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657632839600,
+      "latency_us": 7.249,
+      "pid": 3294,
+      "func": "malloc",
+      "args": [
+        "0x30"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657632971776,
+      "latency_us": 6.558,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x281649a0"
+      ],
+      "stack": [
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633032749,
+      "latency_us": 6.239,
+      "pid": 3294,
+      "func": "malloc",
+      "args": [
+        "0x30"
+      ],
+      "stack": [
+        "operator new(unsigned long)",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633174836,
+      "latency_us": 5.2,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x28665690"
+      ],
+      "stack": [
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633276373,
+      "latency_us": 5.72,
+      "pid": 3294,
+      "func": "malloc",
+      "args": [
+        "0x30"
+      ],
+      "stack": [
+        "operator new(unsigned long)",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633418688,
+      "latency_us": 6.19,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x27ebdb90"
+      ],
+      "stack": [
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633530323,
+      "latency_us": 11.42,
+      "pid": 3294,
+      "func": "malloc",
+      "args": [
+        "0x30"
+      ],
+      "stack": [
+        "operator new(unsigned long)",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633672658,
+      "latency_us": 7.199,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x28665690"
+      ],
+      "stack": [
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633682888,
+      "latency_us": 5.26,
+      "pid": 3214,
+      "func": "malloc",
+      "args": [
+        "0x400"
+      ],
+      "stack": [
+        "time_strftime"
+      ]
+    },
+    {
+      "timestamp": 657633683574,
+      "latency_us": 5.669,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x7fca7002c260"
+      ],
+      "stack": [
+        "tzset_internal",
+        "__tz_convert",
+        "time_convert",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633684658,
+      "latency_us": 4.89,
+      "pid": 3214,
+      "func": "malloc",
+      "args": [
+        "0xf"
+      ],
+      "stack": [
+        "__GI___strdup",
+        "tzset_internal",
+        "__tz_convert",
+        "time_convert",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633687436,
+      "latency_us": 4.52,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x289b3400"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657633688501,
+      "latency_us": 4.42,
+      "pid": 3294,
+      "func": "malloc",
+      "args": [
+        "0x30"
+      ],
+      "stack": [
+        "operator new(unsigned long)",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633691356,
+      "latency_us": 5.67,
+      "pid": 2917339,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "__libc_start_call_main",
+        "__libc_start_main_impl",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633691545,
+      "latency_us": 3.98,
+      "pid": 2917339,
+      "func": "malloc",
+      "args": [
+        "0x2"
+      ],
+      "stack": [
+        "__GI___strdup",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "__libc_start_call_main",
+        "__libc_start_main_impl",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633692508,
+      "latency_us": 4.12,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "sd_bus_new",
+        "[unknown]",
+        "[unknown]",
+        "sd_event_dispatch",
+        "sd_event_run",
+        "manager_loop",
+        "[unknown]",
+        "__libc_start_call_main",
+        "__libc_start_main_impl",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633694540,
+      "latency_us": 4.33,
+      "pid": 1,
+      "func": "malloc",
+      "args": [
+        "0x1e"
+      ],
+      "stack": [
+        "__GI___strdup",
+        "[unknown]",
+        "sd_bus_add_fallback_vtable",
+        "bus_add_implementation",
+        "bus_add_implementation",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "sd_event_dispatch",
+        "sd_event_run",
+        "manager_loop",
+        "[unknown]",
+        "__libc_start_call_main",
+        "__libc_start_main_impl",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633696111,
+      "latency_us": 4.189,
+      "pid": 1,
+      "func": "malloc",
+      "args": [
+        "0x8030"
+      ],
+      "stack": [
+        "opendir",
+        "unit_file_get_list",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "bus_process_object",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "sd_event_dispatch",
+        "sd_event_run",
+        "manager_loop",
+        "[unknown]",
+        "__libc_start_call_main",
+        "__libc_start_main_impl",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633696919,
+      "latency_us": 4.269,
+      "pid": 2917339,
+      "func": "free",
+      "args": [
+        "0x57841cc9a4a0"
+      ],
+      "stack": [
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "__libc_start_call_main",
+        "__libc_start_main_impl",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633698305,
+      "latency_us": 4.58,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657633698709,
+      "latency_us": 4.211,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4e23f00"
+      ],
+      "stack": [
+        "bus_slot_disconnect",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "sd_event_dispatch",
+        "sd_event_run",
+        "manager_loop",
+        "[unknown]",
+        "__libc_start_call_main",
+        "__libc_start_main_impl",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633699444,
+      "latency_us": 3.99,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4e5a3d0"
+      ],
+      "stack": [
+        "bus_slot_disconnect",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "sd_event_dispatch",
+        "sd_event_run",
+        "manager_loop",
+        "[unknown]",
+        "__libc_start_call_main",
+        "__libc_start_main_impl",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633699898,
+      "latency_us": 4.199,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4eb09e0"
+      ],
+      "stack": [
+        "bus_slot_disconnect",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "sd_event_dispatch",
+        "sd_event_run",
+        "manager_loop",
+        "[unknown]",
+        "__libc_start_call_main",
+        "__libc_start_main_impl",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633700545,
+      "latency_us": 4.449,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4f4df20"
+      ],
+      "stack": [
+        "bus_slot_disconnect",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "sd_event_dispatch",
+        "sd_event_run",
+        "manager_loop",
+        "[unknown]",
+        "__libc_start_call_main",
+        "__libc_start_main_impl",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633701349,
+      "latency_us": 4.28,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4d9a4a0"
+      ],
+      "stack": [
+        "bus_slot_disconnect",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "sd_event_dispatch",
+        "sd_event_run",
+        "manager_loop",
+        "[unknown]",
+        "__libc_start_call_main",
+        "__libc_start_main_impl",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633701842,
+      "latency_us": 4.539,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4f2cfe0"
+      ],
+      "stack": [
+        "bus_slot_disconnect",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "sd_event_dispatch",
+        "sd_event_run",
+        "manager_loop",
+        "[unknown]",
+        "__libc_start_call_main",
+        "__libc_start_main_impl",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633702116,
+      "latency_us": 3.919,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4f508f0"
+      ],
+      "stack": [
+        "sd_bus_slot_unref",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "sd_event_dispatch",
+        "sd_event_run",
+        "manager_loop",
+        "[unknown]",
+        "__libc_start_call_main",
+        "__libc_start_main_impl",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633702547,
+      "latency_us": 4.249,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4eac5f0"
+      ],
+      "stack": [
+        "bus_slot_disconnect",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "sd_event_dispatch",
+        "sd_event_run",
+        "manager_loop",
+        "[unknown]",
+        "__libc_start_call_main",
+        "__libc_start_main_impl",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633703321,
+      "latency_us": 4.24,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4d88f40"
+      ],
+      "stack": [
+        "bus_slot_disconnect",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "sd_event_dispatch",
+        "sd_event_run",
+        "manager_loop",
+        "[unknown]",
+        "__libc_start_call_main",
+        "__libc_start_main_impl",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633703801,
+      "latency_us": 4.159,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4de51c0"
+      ],
+      "stack": [
+        "bus_slot_disconnect",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "sd_event_dispatch",
+        "sd_event_run",
+        "manager_loop",
+        "[unknown]",
+        "__libc_start_call_main",
+        "__libc_start_main_impl",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633704507,
+      "latency_us": 4.46,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4f1c830"
+      ],
+      "stack": [
+        "bus_slot_disconnect",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "sd_event_dispatch",
+        "sd_event_run",
+        "manager_loop",
+        "[unknown]",
+        "__libc_start_call_main",
+        "__libc_start_main_impl",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633705165,
+      "latency_us": 4.229,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4f6ae90"
+      ],
+      "stack": [
+        "bus_slot_disconnect",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "sd_event_dispatch",
+        "sd_event_run",
+        "manager_loop",
+        "[unknown]",
+        "__libc_start_call_main",
+        "__libc_start_main_impl",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633705591,
+      "latency_us": 4.051,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4f96b30"
+      ],
+      "stack": [
+        "bus_slot_disconnect",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "sd_event_dispatch",
+        "sd_event_run",
+        "manager_loop",
+        "[unknown]",
+        "__libc_start_call_main",
+        "__libc_start_main_impl",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633706096,
+      "latency_us": 4.019,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4ef6520"
+      ],
+      "stack": [
+        "bus_slot_disconnect",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "sd_event_dispatch",
+        "sd_event_run",
+        "manager_loop",
+        "[unknown]",
+        "__libc_start_call_main",
+        "__libc_start_main_impl",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633706560,
+      "latency_us": 4.14,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "bus_slot_disconnect",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "sd_event_dispatch",
+        "sd_event_run",
+        "manager_loop",
+        "[unknown]",
+        "__libc_start_call_main",
+        "__libc_start_main_impl",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633707037,
+      "latency_us": 4.049,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4d8ecd0"
+      ],
+      "stack": [
+        "bus_slot_disconnect",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "sd_event_dispatch",
+        "sd_event_run",
+        "manager_loop",
+        "[unknown]",
+        "__libc_start_call_main",
+        "__libc_start_main_impl",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633707510,
+      "latency_us": 4.251,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4f65590"
+      ],
+      "stack": [
+        "bus_slot_disconnect",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "sd_event_dispatch",
+        "sd_event_run",
+        "manager_loop",
+        "[unknown]",
+        "__libc_start_call_main",
+        "__libc_start_main_impl",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633707989,
+      "latency_us": 4.16,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4fc4b20"
+      ],
+      "stack": [
+        "bus_slot_disconnect",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "sd_event_dispatch",
+        "sd_event_run",
+        "manager_loop",
+        "[unknown]",
+        "__libc_start_call_main",
+        "__libc_start_main_impl",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633708263,
+      "latency_us": 3.6,
+      "pid": 1,
+      "func": "free",
+      "args": [
+        "0x5e09b4f562e0"
+      ],
+      "stack": [
+        "bus_slot_disconnect",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "sd_event_dispatch",
+        "sd_event_run",
+        "manager_loop",
+        "[unknown]",
+        "__libc_start_call_main",
+        "__libc_start_main_impl",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633694353,
+      "latency_us": 5.02,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633694791,
+      "latency_us": 4.159,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633695365,
+      "latency_us": 4.27,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633695979,
+      "latency_us": 4.53,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "__tzfile_read",
+        "tzset_internal",
+        "__tz_convert",
+        "datetime_now"
+      ]
+    },
+    {
+      "timestamp": 657633696590,
+      "latency_us": 4.15,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633697289,
+      "latency_us": 4.219,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633697618,
+      "latency_us": 3.759,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633699135,
+      "latency_us": 4.87,
+      "pid": 3214,
+      "func": "malloc",
+      "args": [
+        "0x154"
+      ],
+      "stack": [
+        "PyObject_Realloc"
+      ]
+    },
+    {
+      "timestamp": 657633700904,
+      "latency_us": 4.47,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x194347f0"
+      ],
+      "stack": [
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633702566,
+      "latency_us": 15.999,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0xe000"
+      ],
+      "stack": [
+        "operator new(unsigned long)",
+        "ProcSyms::Module::_add_symbol_lazy(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, int, void*)",
+        "[unknown]",
+        "[unknown]",
+        "ProcSyms::Module::load_sym_table()",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633702914,
+      "latency_us": 4.06,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "[unknown]",
+        "ProcSyms::Module::load_sym_table()",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633704192,
+      "latency_us": 4.06,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "[unknown]",
+        "ProcSyms::Module::load_sym_table()",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633704732,
+      "latency_us": 4.15,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "[unknown]",
+        "ProcSyms::Module::load_sym_table()",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633705817,
+      "latency_us": 4.1,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633708578,
+      "latency_us": 4.119,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633708802,
+      "latency_us": 3.96,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633709330,
+      "latency_us": 4.24,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633709675,
+      "latency_us": 3.4,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633712769,
+      "latency_us": 4.909,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633713339,
+      "latency_us": 3.51,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633713760,
+      "latency_us": 3.3,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633714123,
+      "latency_us": 3.33,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x37"
+      ],
+      "stack": [
+        "operator new(unsigned long)",
+        "std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long)",
+        "std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long)",
+        "[unknown]",
+        "ProcSyms::ModulePath::ModulePath(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, bool)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633714241,
+      "latency_us": 3.42,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633714655,
+      "latency_us": 3.32,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633715075,
+      "latency_us": 3.309,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633715476,
+      "latency_us": 3.309,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633715939,
+      "latency_us": 3.369,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633716364,
+      "latency_us": 3.329,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633716816,
+      "latency_us": 3.36,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633717061,
+      "latency_us": 3.14,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x35"
+      ],
+      "stack": [
+        "operator new(unsigned long)",
+        "std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long)",
+        "std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long)",
+        "[unknown]",
+        "ProcSyms::ModulePath::ModulePath(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, bool)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633717254,
+      "latency_us": 3.319,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633717705,
+      "latency_us": 3.35,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633718138,
+      "latency_us": 3.17,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633718580,
+      "latency_us": 3.269,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x1b035a30"
+      ],
+      "stack": [
+        "[unknown]",
+        "ProcSyms::ModulePath::ModulePath(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, bool)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633719028,
+      "latency_us": 3.189,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633719481,
+      "latency_us": 3.24,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633719820,
+      "latency_us": 3.5,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x18"
+      ],
+      "stack": [
+        "operator new(unsigned long)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633719974,
+      "latency_us": 3.39,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633720531,
+      "latency_us": 3.279,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x192491f0"
+      ],
+      "stack": [
+        "__new_fclose",
+        "bcc_perf_map_nstgid",
+        "bcc_perf_map_path",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633721988,
+      "latency_us": 3.889,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x1aed4af0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633723315,
+      "latency_us": 3.989,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633725538,
+      "latency_us": 3.77,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "[unknown]",
+        "ProcSyms::Module::load_sym_table()",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633725614,
+      "latency_us": 3.609,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x427"
+      ],
+      "stack": [
+        "[unknown]",
+        "elf_strptr",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "ProcSyms::Module::load_sym_table()",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633726444,
+      "latency_us": 3.809,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "[unknown]",
+        "ProcSyms::Module::load_sym_table()",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633727453,
+      "latency_us": 3.39,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633727795,
+      "latency_us": 3.219,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633728319,
+      "latency_us": 4.2,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633728927,
+      "latency_us": 4.11,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633729366,
+      "latency_us": 3.87,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633730129,
+      "latency_us": 4.32,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633730676,
+      "latency_us": 3.95,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633732048,
+      "latency_us": 4.07,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633733381,
+      "latency_us": 4.58,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x40"
+      ],
+      "stack": [
+        "[unknown]",
+        "[unknown]",
+        "__cxa_demangle",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633733886,
+      "latency_us": 4.06,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633735291,
+      "latency_us": 3.76,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "[unknown]",
+        "ProcSyms::Module::load_sym_table()",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633736105,
+      "latency_us": 3.54,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x192e5260"
+      ],
+      "stack": [
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633737625,
+      "latency_us": 5.38,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x40"
+      ],
+      "stack": [
+        "[unknown]",
+        "[unknown]",
+        "__cxa_demangle",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633739500,
+      "latency_us": 5.519,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x192e5260"
+      ],
+      "stack": [
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633743556,
+      "latency_us": 6.189,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x3f8"
+      ],
+      "stack": [
+        "PyMem_Malloc",
+        "[unknown]",
+        "[unknown]",
+        "_PyObject_MakeTpCall",
+        "_PyEval_EvalFrameDefault",
+        "PyObject_Vectorcall",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "[unknown]",
+        "perf_reader_poll",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633810890,
+      "latency_us": 6.149,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x28296ac0"
+      ],
+      "stack": [
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657633942981,
+      "latency_us": 5.61,
+      "pid": 3294,
+      "func": "malloc",
+      "args": [
+        "0x30"
+      ],
+      "stack": [
+        "operator new(unsigned long)",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634054777,
+      "latency_us": 5.0,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x28296ac0"
+      ],
+      "stack": [
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634087367,
+      "latency_us": 6.519,
+      "pid": 2370533,
+      "func": "malloc",
+      "args": [
+        "0x40"
+      ],
+      "stack": [
+        "operator new(unsigned long)",
+        "v8::internal::BackingStore::Allocate(v8::internal::Isolate*, unsigned long, v8::internal::SharedFlag, v8::internal::InitializedFlag)",
+        "v8::internal::Factory::NewJSArrayBufferAndBackingStore(unsigned long, unsigned long, v8::internal::InitializedFlag, v8::internal::ResizableFlag, v8::internal::AllocationType)",
+        "v8::ArrayBuffer::New(v8::Isolate*, unsigned long)",
+        "node::AliasedBufferBase<double, v8::Float64Array>::AliasedBufferBase(v8::Isolate*, unsigned long, unsigned long const*)",
+        "node::fs::GetReqWrap(v8::FunctionCallbackInfo<v8::Value> const&, int, bool)",
+        "node::fs::FStat(v8::FunctionCallbackInfo<v8::Value> const&)",
+        "Builtins_CallApiCallbackGeneric",
+        "[unknown]",
+        "[unknown]",
+        "Builtins_AsyncFunctionAwaitResolveClosure",
+        "Builtins_PromiseFulfillReactionJob",
+        "Builtins_RunMicrotasks",
+        "Builtins_JSRunMicrotasksEntry",
+        "v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, v8::internal::(anonymous namespace)::InvokeParams const&)",
+        "v8::internal::Execution::TryRunMicrotasks(v8::internal::Isolate*, v8::internal::MicrotaskQueue*)",
+        "v8::internal::MicrotaskQueue::RunMicrotasks(v8::internal::Isolate*)",
+        "v8::internal::MicrotaskQueue::PerformCheckpoint(v8::Isolate*)",
+        "node::InternalCallbackScope::Close()",
+        "node::InternalCallbackScope::~InternalCallbackScope()",
+        "node::fs::FSReqPromise<node::AliasedBufferBase<double, v8::Float64Array> >::Resolve(v8::Local<v8::Value>)",
+        "node::fs::AfterOpenFileHandle(uv_fs_s*)",
+        "node::MakeLibuvRequestCallback<uv_fs_s, void (*)(uv_fs_s*)>::Wrapper(uv_fs_s*)",
+        "uv__work_done",
+        "uv__async_io.part.0",
+        "uv__io_poll",
+        "uv_run",
+        "node::SpinEventLoopInternal(node::Environment*)",
+        "node::NodeMainInstance::Run()",
+        "node::Start(int, char**)",
+        "__libc_start_call_main",
+        "__libc_start_main_impl",
+        "_start"
+      ]
+    },
+    {
+      "timestamp": 657634105518,
+      "latency_us": 5.019,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x28296ac0"
+      ],
+      "stack": [
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634176604,
+      "latency_us": 6.329,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x2810b600"
+      ],
+      "stack": [
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634087969,
+      "latency_us": 4.93,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634089633,
+      "latency_us": 4.16,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x1989d0a0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634090068,
+      "latency_us": 3.66,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634090101,
+      "latency_us": 4.21,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x121"
+      ],
+      "stack": [
+        "[unknown]",
+        "elf_strptr",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634090585,
+      "latency_us": 4.059,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634091183,
+      "latency_us": 3.909,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_type",
+        "ProcSyms::Module::Module(char const*, std::shared_ptr<ProcSyms::ModulePath>, bcc_symbol_option*)",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634091720,
+      "latency_us": 4.371,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_get_text_scn_info",
+        "ProcSyms::_add_module(mod_info*, int, void*)",
+        "_procfs_maps_each_module",
+        "bcc_procutils_each_module",
+        "ProcSyms::ProcSyms(int, bcc_symbol_option*)",
+        "bcc_symcache_new",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634092717,
+      "latency_us": 4.42,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x1944c410"
+      ],
+      "stack": [
+        "ProcSyms::Module::_add_symbol_lazy(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, int, void*)",
+        "[unknown]",
+        "[unknown]",
+        "ProcSyms::Module::load_sym_table()",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634092786,
+      "latency_us": 5.16,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x7000"
+      ],
+      "stack": [
+        "operator new(unsigned long)",
+        "ProcSyms::Module::_add_symbol_lazy(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, int, void*)",
+        "[unknown]",
+        "[unknown]",
+        "ProcSyms::Module::load_sym_table()",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634187805,
+      "latency_us": 6.07,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634190625,
+      "latency_us": 5.24,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634190772,
+      "latency_us": 4.31,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x30"
+      ],
+      "stack": [
+        "operator new(unsigned long)",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634193325,
+      "latency_us": 4.82,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634195773,
+      "latency_us": 5.04,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634198325,
+      "latency_us": 4.91,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634200844,
+      "latency_us": 4.68,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634203769,
+      "latency_us": 7.219,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x19d43220"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634206775,
+      "latency_us": 5.069,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634209221,
+      "latency_us": 4.499,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x19c53d20"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634212654,
+      "latency_us": 4.939,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634215071,
+      "latency_us": 4.879,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634216439,
+      "latency_us": 4.53,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0xa80"
+      ],
+      "stack": [
+        "[unknown]",
+        "elf_strptr",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634217446,
+      "latency_us": 4.06,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634219293,
+      "latency_us": 4.29,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "[unknown]",
+        "ProcSyms::Module::load_sym_table()",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634219754,
+      "latency_us": 3.54,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "[unknown]",
+        "ProcSyms::Module::load_sym_table()",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634220779,
+      "latency_us": 4.22,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634221230,
+      "latency_us": 3.64,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634221576,
+      "latency_us": 3.31,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x0"
+      ],
+      "stack": [
+        "elf_end",
+        "[unknown]",
+        "bcc_elf_symbol_str",
+        "ProcSyms::Module::find_addr(unsigned long, bcc_symbol*)",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634224022,
+      "latency_us": 5.899,
+      "pid": 2917332,
+      "func": "free",
+      "args": [
+        "0x1aee7620"
+      ],
+      "stack": [
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634224947,
+      "latency_us": 4.389,
+      "pid": 2917332,
+      "func": "malloc",
+      "args": [
+        "0x40"
+      ],
+      "stack": [
+        "[unknown]",
+        "[unknown]",
+        "__cxa_demangle",
+        "ProcSyms::resolve_addr(unsigned long, bcc_symbol*, bool)",
+        "bcc_symcache_resolve",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634267973,
+      "latency_us": 7.09,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x28af92c0"
+      ],
+      "stack": [
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634339150,
+      "latency_us": 5.56,
+      "pid": 3294,
+      "func": "malloc",
+      "args": [
+        "0x30"
+      ],
+      "stack": []
+    },
+    {
+      "timestamp": 657634512225,
+      "latency_us": 4.9,
+      "pid": 3294,
+      "func": "free",
+      "args": [
+        "0x28296ac0"
+      ],
+      "stack": [
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634583342,
+      "latency_us": 6.539,
+      "pid": 3294,
+      "func": "malloc",
+      "args": [
+        "0x30"
+      ],
+      "stack": [
+        "operator new(unsigned long)",
+        "[unknown]",
+        "[unknown]"
+      ]
+    },
+    {
+      "timestamp": 657634701433,
+      "latency_us": 5.019,
+      "pid": 3214,
+      "func": "free",
+      "args": [
+        "0x7fca84006150"
+      ],
+      "stack": []
+    }
+  ],
+  "total_events": 355
+}

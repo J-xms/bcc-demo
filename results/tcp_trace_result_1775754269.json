@@ -1,0 +1,90 @@
+{
+  "results": [
+    {
+      "timestamp": 658491690892,
+      "latency_us": 27.868,
+      "pid": 3207,
+      "tid": 3207,
+      "func": "tcp_connect",
+      "args": [
+        "0xffff8ed80aa7ae40",
+        "0x0"
+      ],
+      "kern_stack": [
+        "tcp_v4_connect",
+        "__inet_stream_connect",
+        "inet_stream_connect",
+        "__sys_connect_file",
+        "__sys_connect",
+        "__x64_sys_connect",
+        "x64_sys_call",
+        "do_syscall_64",
+        "entry_SYSCALL_64_after_hwframe"
+      ],
+      "kern_stack_id": 126,
+      "user_stack": [
+        "__connect",
+        "0x1"
+      ],
+      "user_stack_id": 195
+    },
+    {
+      "timestamp": 658491696534,
+      "latency_us": 15.319,
+      "pid": 3207,
+      "tid": 3207,
+      "func": "tcp_close",
+      "args": [
+        "0xffff8ed80aa7ae40",
+        "0x0"
+      ],
+      "kern_stack": [
+        "inet_release",
+        "__sock_release",
+        "sock_close",
+        "__fput",
+        "__fput_sync",
+        "__x64_sys_close",
+        "x64_sys_call",
+        "do_syscall_64",
+        "entry_SYSCALL_64_after_hwframe"
+      ],
+      "kern_stack_id": 552,
+      "user_stack": [
+        "close",
+        "0x2af5cdd0",
+        "0x6534e0"
+      ],
+      "user_stack_id": 575
+    },
+    {
+      "timestamp": 658494690202,
+      "latency_us": 30.386,
+      "pid": 3207,
+      "tid": 3207,
+      "func": "tcp_connect",
+      "args": [
+        "0xffff8ed8042f9bc0",
+        "0x0"
+      ],
+      "kern_stack": [
+        "tcp_v4_connect",
+        "__inet_stream_connect",
+        "inet_stream_connect",
+        "__sys_connect_file",
+        "__sys_connect",
+        "__x64_sys_connect",
+        "x64_sys_call",
+        "do_syscall_64",
+        "entry_SYSCALL_64_after_hwframe"
+      ],
+      "kern_stack_id": 126,
+      "user_stack": [
+        "__connect",
+        "0x1"
+      ],
+      "user_stack_id": 195
+    }
+  ],
+  "total_events": 3
+}

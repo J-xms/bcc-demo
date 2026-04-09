@@ -1,0 +1,35 @@
+{
+  "results": [
+    {
+      "timestamp": 656326786402,
+      "latency_us": 29.578,
+      "pid": 3207,
+      "func": "tcp_connect",
+      "args": [
+        "0xffff8ed8042fa500",
+        "0x0"
+      ]
+    },
+    {
+      "timestamp": 656326829501,
+      "latency_us": 14.189,
+      "pid": 3207,
+      "func": "tcp_close",
+      "args": [
+        "0xffff8ed8042fa500",
+        "0x0"
+      ]
+    },
+    {
+      "timestamp": 656327798800,
+      "latency_us": 28.307,
+      "pid": 3207,
+      "func": "tcp_connect",
+      "args": [
+        "0xffff8ed80aa79bc0",
+        "0x0"
+      ]
+    }
+  ],
+  "total_events": 3
+}

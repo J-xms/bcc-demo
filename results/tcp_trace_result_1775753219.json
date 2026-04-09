@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "timestamp": 657441691026,
+      "latency_us": 57.854,
+      "pid": 3207,
+      "func": "tcp_connect",
+      "args": [
+        "0xffff8ed80aa7ef00",
+        "0x0"
+      ],
+      "stack": [
+        "tcp_v4_connect",
+        "__inet_stream_connect",
+        "inet_stream_connect",
+        "__sys_connect_file",
+        "__sys_connect",
+        "__x64_sys_connect",
+        "x64_sys_call",
+        "do_syscall_64",
+        "entry_SYSCALL_64_after_hwframe"
+      ]
+    },
+    {
+      "timestamp": 657441697658,
+      "latency_us": 11.449,
+      "pid": 3207,
+      "func": "tcp_close",
+      "args": [
+        "0xffff8ed80aa7ef00",
+        "0x0"
+      ],
+      "stack": [
+        "inet_release",
+        "__sock_release",
+        "sock_close",
+        "__fput",
+        "__fput_sync",
+        "__x64_sys_close",
+        "x64_sys_call",
+        "do_syscall_64",
+        "entry_SYSCALL_64_after_hwframe"
+      ]
+    }
+  ],
+  "total_events": 2
+}

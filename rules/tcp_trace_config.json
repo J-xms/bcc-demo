@@ -1,0 +1,36 @@
+{
+  "duration": 5,
+  "targets": [
+    {
+      "name": "tcp_connect",
+      "type": "kernel",
+      "trace_arg": true,
+      "arg_types": ["struct sock*", "struct sockaddr*"]
+    },
+    {
+      "name": "inet_csk_accept",
+      "type": "kernel",
+      "trace_arg": true,
+      "arg_types": ["struct sock*"]
+    },
+    {
+      "name": "mptcp_sendmsg",
+      "type": "kernel",
+      "trace_arg": true,
+      "arg_types": ["struct sock*", "struct msghdr*", "size_t"]
+    },
+    {
+      "name": "mptcp_recvmsg",
+      "type": "kernel",
+      "trace_arg": true,
+      "arg_types": ["struct sock*", "struct msghdr*", "size_t", "int"]
+    },
+    {
+      "name": "tcp_close",
+      "type": "kernel",
+      "trace_arg": true,
+      "arg_types": ["struct sock*", "long"]
+    }
+  ],
+  "output": "tcp_trace_result.json"
+}
