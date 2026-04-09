@@ -124,7 +124,7 @@ int exit_%(name)s(struct pt_regs *ctx) {
 
 
 class FunctionTracer:
-    def __init__(self, config_path, output_dir='./results'):
+    def __init__(self, config_path, output_dir):
         with open(config_path, 'r') as f:
             self.config = json.load(f)
         self.output_dir = output_dir
@@ -271,6 +271,7 @@ class FunctionTracer:
 def main():
     parser = argparse.ArgumentParser(description='BPF Function Tracer')
     parser.add_argument('-r', '--rules', required=True, help='Path to JSON rules file')
+    parser.add_argument('-o', '--output', default='./results', help='Output directory (default: ./results)')
     parser.add_argument('-t', '--time', type=int, default=10, help='Tracing duration in seconds (default: 10)')
     parser.add_argument('-f', '--freq', type=int, default=1, help='Sampling frequency (1=100%%, 10=10%%, 100=1%%, default: 1)')
 
@@ -280,7 +281,7 @@ def main():
         print(f"Error: Rules file not found: {args.rules}")
         sys.exit(1)
 
-    tracer = FunctionTracer(args.rules)
+    tracer = FunctionTracer(args.rules, args.output)
     tracer.start(args.time, args.freq)
 
 

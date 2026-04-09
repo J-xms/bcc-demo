@@ -29,12 +29,13 @@ yum install -y python3-bcc kernel-headers
 ### 命令行参数
 
 ```bash
-python3 function_tracer.py -r <规则文件> [-t <时长>] [-f <采样频率>]
+python3 function_tracer.py -r <规则文件> [-o <输出目录>] [-t <时长>] [-f <采样频率>]
 ```
 
 | 参数 | 说明 | 默认值 |
 |------|------|--------|
 | `-r, --rules` | JSON 规则文件路径 | 必选 |
+| `-o, --output` | 输出目录 | ./results |
 | `-t, --time` | 采集时长（秒） | 10 |
 | `-f, --freq` | 采样频率 | 1 (100%) |
 
