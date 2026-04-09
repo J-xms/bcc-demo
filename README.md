@@ -8,17 +8,16 @@
 
 ```bash
 # Ubuntu/Debian
-apt-get install -y bpfcc-tools linux-headers-$(uname -r)
+apt-get install -y bpfcc-tools python3-bpfcc linux-headers-$(uname -r)
 
 # CentOS/RHEL
-yum install -y bcc-tools kernel-headers
+yum install -y bcc-tools python3-bcc kernel-headers
 ```
 
-### Python 依赖
-
-```bash
-pip3 install bcc
-```
+**说明：**
+- `bpfcc-tools` / `bcc-tools`: BCC 命令行工具套件
+- `python3-bpfcc` / `python3-bcc`: Python `bcc` 模块（代码中 `from bcc import BPF`）
+- `linux-headers`: 内核头文件，用于编译 eBPF 程序
 
 ### 内核要求
 
@@ -356,10 +355,10 @@ openEuler 24+ 完全支持运行，eBPF 已被内核默认支持（Linux 4.14+�
 
 ```bash
 # openEuler 使用 dnf/yum
-dnf install -y bcc-tools kernel-headers
+dnf install -y bcc-tools python3-bcc kernel-headers
 
 # 或者
-yum install -y bcc-tools kernel-headers
+yum install -y bcc-tools python3-bcc kernel-headers
 ```
 
 #### 可能遇到的问题
