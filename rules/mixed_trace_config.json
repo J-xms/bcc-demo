@@ -1,5 +1,4 @@
 {
-  "duration": 5,
   "targets": [
     {
       "name": "malloc",
@@ -27,6 +26,5 @@
       "trace_arg": true,
       "arg_types": ["struct sock*", "long"]
     }
-  ],
-  "output": "mixed_trace_result.json"
+  ]
 }

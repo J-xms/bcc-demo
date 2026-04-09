@@ -1,5 +1,4 @@
 {
-  "duration": 5,
   "targets": [
     {
       "name": "malloc",
@@ -15,6 +14,5 @@
       "trace_arg": true,
       "arg_types": ["void*"]
     }
-  ],
-  "output": "usdt_trace_result.json"
+  ]
 }

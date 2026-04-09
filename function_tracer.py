@@ -124,7 +124,7 @@ int exit_%(name)s(struct pt_regs *ctx) {
 
 
 class FunctionTracer:
-    def __init__(self, config_path, output_dir):
+    def __init__(self, config_path, output_dir='./results'):
         with open(config_path, 'r') as f:
             self.config = json.load(f)
         self.output_dir = output_dir
@@ -258,8 +258,7 @@ class FunctionTracer:
 
     def _save_results(self):
         os.makedirs(self.output_dir, exist_ok=True)
-        basename = os.path.splitext(os.path.basename(self.config.get('output', 'result.json')))[0]
-        output_file = os.path.join(self.output_dir, f"{basename}_{int(time.time())}.json")
+        output_file = os.path.join(self.output_dir, f"trace_{int(time.time())}.json")
 
         with open(output_file, 'w') as f:
             json.dump({
@@ -272,8 +271,7 @@ class FunctionTracer:
 def main():
     parser = argparse.ArgumentParser(description='BPF Function Tracer')
     parser.add_argument('-r', '--rules', required=True, help='Path to JSON rules file')
-    parser.add_argument('-o', '--output', default='.', help='Output directory (default: current directory)')
-    parser.add_argument('-t', '--time', type=int, default=None, help='Tracing duration in seconds (overrides config)')
+    parser.add_argument('-t', '--time', type=int, default=10, help='Tracing duration in seconds (default: 10)')
     parser.add_argument('-f', '--freq', type=int, default=1, help='Sampling frequency (1=100%%, 10=10%%, 100=1%%, default: 1)')
 
     args = parser.parse_args()
@@ -282,10 +280,8 @@ def main():
         print(f"Error: Rules file not found: {args.rules}")
         sys.exit(1)
 
-    tracer = FunctionTracer(args.rules, args.output)
-
-    duration = args.time if args.time else tracer.config.get('duration', 10)
-    tracer.start(duration, args.freq)
+    tracer = FunctionTracer(args.rules)
+    tracer.start(args.time, args.freq)
 
 
 if __name__ == '__main__':
